@@ -5,7 +5,15 @@ A GTK 2/3+ theme for my [dotfiles](https://github.com/bossley9/dotfiles)
 1. [Installation](#installation)
 
 ## Installation <a name="installation"></a>
-1. Download all dependencies:
+1. Clone this repository your system's theme directory:
+    ```
+    git clone https://github.com/bossley9/DotfilesGtk.git $HOME/.themes/DotfilesGtk
+    ```
+    or
+    ```
+    git clone https://github.com/bossley9/DotfilesGtk.git /usr/share/themes/DotfilesGtk
+    ```
+2. Install all dependencies from the cloned theme root directory:
     ```
     yarn
     ```
@@ -13,7 +21,7 @@ A GTK 2/3+ theme for my [dotfiles](https://github.com/bossley9/dotfiles)
     ```
     npm install
     ```
-2. Build the theme:
+3. Build the theme:
     ```
     yarn build
     ```

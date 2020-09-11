@@ -1,5 +1,9 @@
 THEME=DotfilesGtk
 
-main:
-	# gtk 3
+# main: gtk2 gtk3
+main: gtk3
+
+# gtk2:
+
+gtk3:
 	sass .
