@@ -42,6 +42,7 @@
 @define-color unfocused_borders #171520;
 /* these are pretty self explicative */
 @define-color warning_color #e7852e;
+// @define-color error_color #c83d65;
 @define-color error_color #c83d65;
 @define-color success_color #519aba;
 @define-color fg_color #eceff4;
@@ -81,4 +82,4 @@ read if you used those and something break with a version upgrade you're on your
 @define-color budgie_tasklist_indicator_color_active @theme_selected_bg_color;
 @define-color placeholder_text_color #b9bfcb;
   
-@import url('extra.css');
+@import 'extra';
