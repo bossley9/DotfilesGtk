@@ -30,6 +30,7 @@
 @define-color insensitive_fg_color #{"" + $insensitive_fg_color};
 
 // disabled text widgets and the like base background color
+// eslint-disable-next-line
 @define-color insensitive_base_color #{"" + $insensitive_base_color};
 
 // widget text/foreground color on backdrop windows
